@@ -15,7 +15,7 @@
             /* background-color: #496C0F; */
         }
         
-        a {
+        #couleur a {
             color: white;
         }
         /* p {
@@ -30,6 +30,16 @@
         
         h2 {
             font-size: 4vw;
+        }
+        
+        #imageleaf2 {
+            height: 400px;
+            width: 400px;
+        }
+        
+        #imageleaf {
+            width: 300px;
+            height: 300px;
         }
         
         section {
@@ -68,6 +78,19 @@
         .descendre {
             height: 40px;
             width: 40px;
+        }
+        
+        #centrerverticalement {
+            height: 60px;
+            width: 100%;
+            display: table;
+            text-align: center;
+        }
+        
+        #centrerverticalement span {
+            vertical-align: middle;
+            display: table-cell;
+            color: white;
         }
         /* .rounded {
             padding: 10px;
